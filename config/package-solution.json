@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teste-dev-client-side-solution",
+    "id": "f90bedb0-5d33-4d45-89b7-49cefcd8fd2f",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "teste-dev description"
+      },
+      "longDescription": {
+        "default": "teste-dev description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "teste-dev Feature",
+        "description": "The feature that activates elements of the teste-dev solution.",
+        "id": "c4057c9d-53c7-4cb5-915c-fb2cb6a28e54",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/teste-dev.sppkg"
+  }
+}

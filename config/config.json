@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "cadastra-sliders-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastraSliders/CadastraSlidersWebPart.js",
+          "manifest": "./src/webparts/cadastraSliders/CadastraSlidersWebPart.manifest.json"
+        }
+      ]
+    },
+    "lista-sliders-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listaSliders/ListaSlidersWebPart.js",
+          "manifest": "./src/webparts/listaSliders/ListaSlidersWebPart.manifest.json"
+        }
+      ]
+    },
+    "adm-sliders-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/admSliders/AdmSlidersWebPart.js",
+          "manifest": "./src/webparts/admSliders/AdmSlidersWebPart.manifest.json"
+        }
+      ]
+    },
+    "apaga-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/apagaSlider/ApagaSliderWebPart.js",
+          "manifest": "./src/webparts/apagaSlider/ApagaSliderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-3.1.0.min.js"
+  },
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "CadastraSlidersWebPartStrings": "lib/webparts/cadastraSliders/loc/{locale}.js",
+    "ListaSlidersWebPartStrings": "lib/webparts/listaSliders/loc/{locale}.js",
+    "AdmSlidersWebPartStrings": "lib/webparts/admSliders/loc/{locale}.js",
+    "ApagaSliderWebPartStrings": "lib/webparts/apagaSlider/loc/{locale}.js"
+  }
+}
